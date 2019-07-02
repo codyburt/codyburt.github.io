@@ -1,0 +1,176 @@
+body {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  background-color: #f0f2eb;
+  
+}
+
+/* header styling */
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 0.5em 0 1.5em 0;
+}
+
+.cody-header {
+  display: block;
+  font-weight: 500;
+  color: #383934;
+}
+
+nav {
+    margin: 0.5em 0 0 0;
+}
+
+header ul {
+  padding-left: 0;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 1em 0 0;
+    font-size: 0.9em;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #7D7C7D;
+}
+
+header ul li a:active {
+ color: #000000;
+/*  border-bottom: 2px solid #000000; */
+}
+
+header ul li a:hover {
+ color: #B6B6B6;
+}
+
+
+@media screen and (min-width : 300px) {
+ .header-container {
+   flex-direction: row;
+   justify-content: space-between;
+ }
+ .cody-header {
+   align-self: center;
+   margin-left: 5%;
+ }
+ nav {
+   align-self: center;
+   margin: 0 0.8em 0 0;
+  }
+}
+
+/* end header styling */
+
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  color: #383934;
+}
+
+@media screen and (min-width : 600px) {
+  h1 {
+    font-size: 54px;
+  }
+}
+
+.my-links {
+  margin-top: 2em;
+}
+
+.index {
+  transform: rotate(90deg);
+	transform-origin: 0 left top;
+  float: left;
+  color: #6a6b65;
+  font-size: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.link {
+  border-left: 5px solid;
+  padding: 10px 0 10px 10px;
+  margin-left: 16px;
+  font-size: 20px;
+}
+
+.link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#email {
+  border-color: #329EBB;
+}
+
+#email:hover {
+  color: #329EBB; 
+}
+
+#resume {
+  border-color: #B1BF52;
+}
+
+#resume:hover {
+  color: #B1BF52;
+}
+
+#linkedin {
+  border-color: #EBDF41;
+}
+
+#linkedin:hover {
+  color: #EBDF41;
+}
+
+#blog {
+  border-color: #E48C5C;
+}
+
+#blog:hover {
+  color: #E48C5C;
+}
+
+#github {
+  border-color: #D53492;
+}
+
+#github:hover {
+  color: #D53492;
+}
+
+#email-index {
+  color: #329EBB; 
+}
+
+#resume-index {
+  color: #B1BF52;
+}
+
+#linkedin-index {
+  color: #EBDF41;
+}
+
+#blog-index {
+  color: #E48C5C;
+}
+
+#github-index {
+  color: #D53492;
+}
